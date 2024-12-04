@@ -1,5 +1,7 @@
 package Properties.LinkedList;
 
+import java.sql.SQLOutput;
+
 public class Main {
 
 
@@ -13,6 +15,13 @@ public class Main {
         singlyLinkedLIst.insertFirst(12);
         singlyLinkedLIst.insertFirst(7);
 
+        singlyLinkedLIst.display();
+        singlyLinkedLIst.insertLast(99);
+        singlyLinkedLIst.display();
+        System.out.println(singlyLinkedLIst.deleteFirst());
+        singlyLinkedLIst.display();
+
+        System.out.println(singlyLinkedLIst.deleteLast());
         singlyLinkedLIst.display();
 
 
