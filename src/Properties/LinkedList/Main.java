@@ -24,6 +24,13 @@ public class Main {
         System.out.println(singlyLinkedLIst.deleteLast());
         singlyLinkedLIst.display();
 
+        DoublyLinkedList dll=new DoublyLinkedList();
+        dll.insertFirst(3);
+        dll.insertFirst(2);
+        dll.insertFirst(8);
+        dll.insertFirst(18);
+
+
 
     }
 }
