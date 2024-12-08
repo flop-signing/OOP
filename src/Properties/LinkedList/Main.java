@@ -1,12 +1,13 @@
 package Properties.LinkedList;
 
+import java.sql.ClientInfoStatus;
 import java.sql.SQLOutput;
 
 public class Main {
 
 
     public static void main(String[] args) {
-        SinglyLinkedLIst singlyLinkedLIst=new SinglyLinkedLIst();
+       /* SinglyLinkedLIst singlyLinkedLIst=new SinglyLinkedLIst();
         singlyLinkedLIst.insertFirst(4);
         singlyLinkedLIst.insertFirst(14);
 
@@ -30,7 +31,21 @@ public class Main {
         dll.insertFirst(8);
         dll.insertFirst(18);
 
+        */
 
+        CircularLinkedList cll= new CircularLinkedList();
+
+        cll.insertValue(23);
+        cll.insertValue(12);
+        cll.insertValue(2);
+        cll.insertValue(3);
+        cll.insertValue(13);
+        cll.insertValue(32);
+        cll.insertValue(64);
+
+        cll.display();
+        cll.delete(32);
+        cll.display();
 
     }
 }
